@@ -1,0 +1,70 @@
+body{
+    font-family: 'Arial', sans-serif;
+    background-color: #3b17f0;
+    color: #333;
+    margin: 20px;
+}
+
+p{
+    color: darkgrey;
+}
+
+a {
+    padding: 1em;
+}
+
+a:hover{
+    background: chartreuse;
+    color: brown;
+    text-decoration: blue;
+}
+.fede{
+    font-size: 3em;
+    color: goldenrod;
+}
+.logo{
+width: 400px;
+height: 400px;
+}
+.cards{
+    background-color: gray;
+    border: 2px solid black;
+    width: fit-content;
+    padding: 1em 2em 1em 2em;
+    border-radius: 10%;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    align-items: center;
+    transition: 2s;
+}
+
+.cards:hover{
+    background-color: rgb(104, 224, 114);
+}
+#contenedor{
+    width: 85%;
+    margin: auto;
+    margin-top: 2em;
+    border: 10px black;
+    border-radius: 5%;
+    padding: 2em;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+#principal{
+    font-size: 4em;
+    font-style: oblique;
+}
+
+#titulos{
+    width: 55vw;
+    margin: auto;
+    padding: 3em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
